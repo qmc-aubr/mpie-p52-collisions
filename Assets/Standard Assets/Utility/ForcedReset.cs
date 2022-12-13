@@ -5,6 +5,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof (Image))]
 public class ForcedReset : MonoBehaviour
 {
+    [Obsolete]
     private void Update()
     {
         // if we have forced a reset ...

@@ -75,7 +75,7 @@ namespace UnityStandardAssets.Utility
             entry.target.SetActive(false);
         }
 
-
+        [Obsolete]
         private IEnumerator ReloadLevel(Entry entry)
         {
             yield return new WaitForSeconds(entry.delay);
